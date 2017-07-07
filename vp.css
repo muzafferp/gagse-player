@@ -1,0 +1,32 @@
+*{margin:0;padding:0;border:0;}
+body{background-color:#fff;}
+
+.temiz{clear:both;}
+
+.vp_ana{width:560px;height:360px;background:#f4f4e9;margin:auto;margin-top:100px;position:relative;}
+.vp_kontrol{width:560px;height:45px;background:#f4f4e9;position:absolute;bottom:0;left:0;z-index:2147483647;}
+.vp_cubuk{width:560px;height:15px;background:#adada7;position:absolute;top:0;left:0;}
+.vp_sescubuk{width:100px;height:12px;background:#adada7;position:absolute;top:26px;left:105px;}
+.vp_buton{width:20px;height:22px;background:url(vp-buton.png);position:absolute;top:20px;cursor:pointer;}
+#vp_oynat{left:25px;background-position:0px -33px;}
+#vp_oynat:hover{background-position:0px -5px;}
+#vp_dur{display:none;top:21px;left:25px;background-position:-145px -33px;}
+#vp_dur:hover{background-position:-145px -5px;}
+#vp_tekrar{left:55px;background-position:-45px -33px;}
+#vp_tekrar:hover{background-position:-45px -5px;}
+#vp_ses{left:85px;background-position:-20px -5px;}
+#vp_tamekran{width:30px;right:25px;background-position:-68px -33px;}
+#vp_tamekran:hover{background-position:-68px -6px;}
+#vp_tamekran2{display:none;width:30px;right:25px;background-position:-68px -33px;}
+#vp_tamekran2:hover{background-position:-68px -6px;}
+#vp_genis{width:25px;right:60px;background-position:-120px -33px;}
+#vp_genis:hover{background-position:-120px -6px;}
+#vp_kucuk{display:none;width:25px;right:60px;background-position:-120px -6px;}
+#vp_kucuk:hover{background-position:-120px -33px;}
+
+.vp_cubuk .ui-slider-range-min{width:100px;height:15px;position:absolute;background:#ff0202;}
+.vp_sescubuk .ui-slider-range-min{width:100px;height:12px;position:absolute;background:#ff0202;}
+
+::-webkit-media-controls {display:none !important;}
+#vp_video::-webkit-media-controls {display:none !important;}
+#vp_video::-webkit-media-controls-enclosure {display:none !important;}
